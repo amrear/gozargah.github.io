@@ -80,12 +80,12 @@ wgcf generate
   "tag": "warp",
   "protocol": "wireguard",
   "settings": {
-    "secretKey": "Your_Secret_Key",
+    "secretKey": "PrivateKey",
     "DNS": "1.1.1.1",
     "address": ["172.16.0.2/32", "2606:4700:110:8756:9135:af04:3778:40d9/128"],
     "peers": [
       {
-        "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+        "publicKey": "PulbicKey",
         "endpoint": "engage.cloudflareclient.com:2408"
       }
     ],
